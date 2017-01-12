@@ -10,7 +10,7 @@ IDPRootViewGettable is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "IDPCastable"
+pod "IDPRootViewGettable"
 ```
 
 IDPRootViewGettable is available through [Carthage](https://github.com/Carthage/Carthage). To install
