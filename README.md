@@ -1,1 +1,28 @@
 # IDPRootViewGettable
+  
+## Requirements
+
+iOS 9+.
+
+## Installation
+
+IDPRootViewGettable is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "IDPRootViewGettable"
+```
+
+IDPRootViewGettable is available through [Carthage](https://github.com/Carthage/Carthage). To install
+it, simply add the following line to your Cartfile:
+
+```ruby
+github "idapgroup/IDPRootViewGettable"
+```
+
+## Author
+
+
+## License
+
+IDPRootViewGettable is available under the New BSD license. See the LICENSE file for more info.
