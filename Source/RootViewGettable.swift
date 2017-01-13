@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import IDPCastable
 
 public protocol RootViewGettable {
     
@@ -24,6 +25,6 @@ public extension RootViewGettable where Self : UIViewController {
      */
     
     public var rootView: RootViewType? {
-        return self.viewIfLoaded as? RootViewType
+        return cast(self.viewIfLoaded)
     }
 }

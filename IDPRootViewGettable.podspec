@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   # Preserve the layout of headers in the Module directory
   s.header_mappings_dir   = 'Source'
   s.source_files          = 'Source/**/*.{swift,h,m,c,cpp}'
+
+  s.dependency 'IDPCastable'
 end
