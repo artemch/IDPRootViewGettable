@@ -16,16 +16,14 @@ class ViewController: UIViewController, RootViewGettable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rootView = self.rootView
-        rootView?.rotationView?.backgroundColor = UIColor.red
+        self.rootView?.rotationView?.backgroundColor = UIColor.red
     }
 
     // MARK: - Interface Handling
     
     @IBAction func onValueChange(_ sender: UISlider) {
         let value = sender.value
-        let rootView = self.rootView
-        rootView?.update(forValue: value)
+        self.rootView?.update(forValue: value)
     }
     
 }
