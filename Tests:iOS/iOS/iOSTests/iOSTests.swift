@@ -1,8 +1,8 @@
 //
-//  RootViewGettableTests.swift
-//  RootViewGettableTests
+//  iOSTests.swift
+//  iOSTests
 //
-//  Created by Artem Chabannyi on 1/11/17.
+//  Created by Artem Chabannyi on 1/13/17.
 //  Copyright © 2017 IDAP Group. All rights reserved.
 //
 

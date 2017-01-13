@@ -1,15 +1,22 @@
 PODS:
   - Nimble (5.1.1)
   - Quick (1.0.0)
+  - RootViewGettable (0.1.0)
 
 DEPENDENCIES:
   - Nimble (~> 5.1.1)
   - Quick (~> 1.0.0)
+  - RootViewGettable (from `../..`)
+
+EXTERNAL SOURCES:
+  RootViewGettable:
+    :path: "../.."
 
 SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  RootViewGettable: 2f146e47d0f0ab2e339aa43bb696b4ed5810572c
 
-PODFILE CHECKSUM: 72ef14145c1ca07743f3e63161b6fd55024f9ce8
+PODFILE CHECKSUM: 43cd9304782b6583c80ec04f9a8e3e2e1331179e
 
 COCOAPODS: 1.2.0.beta.3
