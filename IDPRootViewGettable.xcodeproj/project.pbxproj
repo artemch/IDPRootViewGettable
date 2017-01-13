@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6966C5771E28DE05002140C2 /* IDPRootViewGettable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6966C5751E28DE05002140C2 /* IDPRootViewGettable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6966C5821E28E0A7002140C2 /* RootViewGettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966C5811E28E0A7002140C2 /* RootViewGettable.swift */; };
+		6966C5851E28E310002140C2 /* IDPCastable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6966C5841E28E310002140C2 /* IDPCastable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		6966C5751E28DE05002140C2 /* IDPRootViewGettable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPRootViewGettable.h; sourceTree = "<group>"; };
 		6966C5761E28DE05002140C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6966C5811E28E0A7002140C2 /* RootViewGettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewGettable.swift; sourceTree = "<group>"; };
+		6966C5841E28E310002140C2 /* IDPCastable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDPCastable.framework; path = Carthage/Build/iOS/IDPCastable.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6966C5851E28E310002140C2 /* IDPCastable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +38,7 @@
 				6966C5801E28E0A7002140C2 /* Source */,
 				6966C5741E28DE05002140C2 /* IDPRootViewGettable */,
 				6966C5731E28DE05002140C2 /* Products */,
+				6966C5831E28E310002140C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +65,14 @@
 				6966C5811E28E0A7002140C2 /* RootViewGettable.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		6966C5831E28E310002140C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6966C5841E28E310002140C2 /* IDPCastable.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +268,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IDPRootViewGettable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -274,6 +290,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IDPRootViewGettable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
