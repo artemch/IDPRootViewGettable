@@ -3,6 +3,11 @@
 ## Requirements
 
 iOS 9+.
+Swift 3.0.
+
+## Dependency
+
+[IDPCastable](https://github.com/idapgroup/IDPCastable)
 
 ## Installation
 
