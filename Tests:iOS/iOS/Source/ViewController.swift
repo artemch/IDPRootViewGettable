@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import RootViewGettable
+import IDPRootViewGettable
 
 class ViewController: UIViewController, RootViewGettable {
 

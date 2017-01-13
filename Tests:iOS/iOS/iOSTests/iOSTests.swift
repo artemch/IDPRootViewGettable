@@ -10,7 +10,7 @@ import Quick
 import Nimble
 import UIKit
 
-@testable import RootViewGettable
+@testable import IDPRootViewGettable
 
 class ViewTestClass: UIView {}
 
