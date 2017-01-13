@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name      = "IDPRootViewGettable"
   s.version   = "0.1.0"
-  s.summary   = "TODO: Add summary"
-  s.description  = "TODO: Add description"
+  s.summary   = "Getter property for UIViewController which help avoid code duplication"
+  s.description  = "This is simple protocol and UIViewController extension which allow reducing code duplication when you use custom root view for UIViewController."
   s.homepage  = "https://github.com/artemch/RootViewGettable.git"
   s.license   = { :type => "New BSD", :file => "LICENSE" }
   s.author    = { "" => "" }
