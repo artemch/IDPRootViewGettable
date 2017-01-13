@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6966C5771E28DE05002140C2 /* IDPRootViewGettable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6966C5751E28DE05002140C2 /* IDPRootViewGettable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6966C5821E28E0A7002140C2 /* RootViewGettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966C5811E28E0A7002140C2 /* RootViewGettable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6966C5721E28DE05002140C2 /* IDPRootViewGettable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDPRootViewGettable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966C5751E28DE05002140C2 /* IDPRootViewGettable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPRootViewGettable.h; sourceTree = "<group>"; };
 		6966C5761E28DE05002140C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6966C5811E28E0A7002140C2 /* RootViewGettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewGettable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 		6966C5681E28DE05002140C2 = {
 			isa = PBXGroup;
 			children = (
+				6966C5801E28E0A7002140C2 /* Source */,
 				6966C5741E28DE05002140C2 /* IDPRootViewGettable */,
 				6966C5731E28DE05002140C2 /* Products */,
 			);
@@ -50,6 +53,14 @@
 				6966C5761E28DE05002140C2 /* Info.plist */,
 			);
 			path = IDPRootViewGettable;
+			sourceTree = "<group>";
+		};
+		6966C5801E28E0A7002140C2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6966C5811E28E0A7002140C2 /* RootViewGettable.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6966C5821E28E0A7002140C2 /* RootViewGettable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				6966C57C1E28DE05002140C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
