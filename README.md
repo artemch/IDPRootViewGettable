@@ -9,6 +9,10 @@ Swift 3.0.
 
 [IDPCastable](https://github.com/idapgroup/IDPCastable)
 
+## Example
+
+To run the example project, clone the repo, and run pod install from the Tests/iOS directory first.
+
 ## Installation
 
 IDPRootViewGettable is available through [CocoaPods](http://cocoapods.org). To install
