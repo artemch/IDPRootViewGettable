@@ -1,25 +1,46 @@
 PODS:
+  - Alamofire (4.3.0)
+  - Argo (4.1.1):
+    - Runes (>= 4.0.0)
+  - Curry (3.0.0)
   - IDPCastable (0.1.3)
   - IDPRootViewGettable (0.1.0):
     - IDPCastable
   - Nimble (5.1.1)
   - Quick (1.0.0)
+  - ReactiveCocoa (5.0.0-rc.1):
+    - ReactiveSwift (~> 1.0.0-rc.3)
+  - ReactiveSwift (1.0.0):
+    - Result (~> 3.1)
+  - Result (3.1.0)
+  - Runes (4.0.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Argo (~> 4.1.1)
+  - Curry (~> 3.0)
   - IDPRootViewGettable (from `../..`)
   - Nimble (~> 5.1.1)
   - Quick (~> 1.0.0)
+  - ReactiveCocoa (= 5.0.0-rc.1)
 
 EXTERNAL SOURCES:
   IDPRootViewGettable:
     :path: "../.."
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Argo: 014ac072f97462bc1a9b83d302edb351488a532f
+  Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
   IDPCastable: 15051ffccffca8408dd633fbc2a19584e2e11e9c
-  IDPRootViewGettable: ce3a560a4092452b9bd4aa18d51921cfbd7c3392
+  IDPRootViewGettable: 84544a97151b285f4f0db65fc4d18bba8b6a7d82
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  ReactiveCocoa: 3e9cad4b77fa199d41e03f603cb55d0701ad6ad8
+  ReactiveSwift: f391724ee318a2cfd3e37dfb041cd49ecf4e7869
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
 
-PODFILE CHECKSUM: 65bf3dd47ccfe15fe873b33e17bd4b999cf738d0
+PODFILE CHECKSUM: 0d5a23462a5edb636aa7d9e37cecee34b1d4995c
 
 COCOAPODS: 1.2.0.beta.3

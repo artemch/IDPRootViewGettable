@@ -1,5 +1,5 @@
 //
-//  Country.swift
+//  Region.swift
 //  iOS
 //
 //  Created by Artem Chabannyi on 1/13/17.
@@ -8,10 +8,7 @@
 
 import Foundation
 
-struct Country {
-    
+struct Region {
     let id: String
-    let name: String
-    let region: Region
-    
+    let value: String
 }
