@@ -1,0 +1,19 @@
+use_frameworks!
+
+def dev_pods
+  pod 'IDPRootViewGettable', :path => '../..'
+end
+
+target 'iOS' do
+  dev_pods
+  pod 'Argo', '~> 4.1.1'
+  pod 'Alamofire', '~> 4.0'
+  pod 'Curry', '~> 3.0'
+  pod 'ReactiveCocoa', '5.0.0-rc.1'
+end
+
+target 'iOSTests' do
+  dev_pods
+  pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+end
