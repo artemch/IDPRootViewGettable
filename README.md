@@ -44,6 +44,7 @@ github "idapgroup/IDPRootViewGettable"
 
 ## Author
 
+Artem Chabannyi, artem.chabanniy@idapgroup.com
 
 ## License
 
